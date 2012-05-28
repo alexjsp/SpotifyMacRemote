@@ -198,7 +198,7 @@
 					dynamic_lookup,
 				);
 				PRODUCT_NAME = SpotifyRemote;
-				SDKROOT = "";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = bundle;
 				ZERO_LINK = YES;
 			};
@@ -207,6 +207,7 @@
 		1DEB913C08733D840010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
@@ -220,7 +221,7 @@
 					dynamic_lookup,
 				);
 				PRODUCT_NAME = SpotifyRemote;
-				SDKROOT = "";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
