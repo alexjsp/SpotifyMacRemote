@@ -1,0 +1,11 @@
+Spotify Mac Remote is a plugin for Spotify that allows you to use your Mac’s IR remote control & multi-touch gestures to Play, Pause and change tracks.
+
+The next, play/pause and previous buttons work exactly as you’d expect, the volume buttons control the system volume and holding the menu button quits Spotify – in case you want to use Frontrow.
+
+Please note that when there are updates for Spotify you may need to download a new version of the plugin.
+
+To uninstall the plugin just quit Spotify and then open Finder and browse to Macintosh HD > Library > Application Support > SIMBL > Plugins and delete SpotifyRemote.bundle
+
+If you’re having any problems or you have any questions feel free to get in touch!
+
+Oh, and thanks to IOSpirit for the remote control code!

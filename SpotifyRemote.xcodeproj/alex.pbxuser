@@ -1,0 +1,202 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8D5B49AC048680CD000E48DA /* SpotifyRemote */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* SpotifyRemote */,
+		);
+		codeSenseManager = FAFDC31A10F7A8E600BB0E38 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					798,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					758,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 294057970;
+			PBXWorkspaceStateSaveDate = 294057970;
+		};
+		perUserProjectItems = {
+			FA441F2A1186F87D00F774F3 /* PBXTextBookmark */ = FA441F2A1186F87D00F774F3 /* PBXTextBookmark */;
+			FA4A0EAD1186EBC6005D8993 /* PBXTextBookmark */ = FA4A0EAD1186EBC6005D8993 /* PBXTextBookmark */;
+			FA4A0EAE1186EBC6005D8993 /* PBXTextBookmark */ = FA4A0EAE1186EBC6005D8993 /* PBXTextBookmark */;
+			FA4A0EAF1186EBC6005D8993 /* PBXTextBookmark */ = FA4A0EAF1186EBC6005D8993 /* PBXTextBookmark */;
+			FA4A0EE91186EC96005D8993 /* PBXTextBookmark */ = FA4A0EE91186EC96005D8993 /* PBXTextBookmark */;
+			FA4A0F921186F789005D8993 /* PlistBookmark */ = FA4A0F921186F789005D8993 /* PlistBookmark */;
+			FA4A0F951186F799005D8993 /* PBXTextBookmark */ = FA4A0F951186F799005D8993 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FAFDC31910F7A8E600BB0E38 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3E515706102AE5FA00E5D978 /* SPApplication.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {976, 392}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 338}";
+		};
+	};
+	8D5B49AC048680CD000E48DA /* SpotifyRemote */ = {
+		activeExec = 0;
+	};
+	8D5B49B7048680CD000E48DA /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 149}, {762, 624}}";
+		};
+	};
+	C6D68B550F212558000CB3C6 /* RemoteController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1420, 442}}";
+			sepNavSelRange = "{220, 0}";
+			sepNavVisRange = "{0, 422}";
+		};
+	};
+	C6D68B560F212558000CB3C6 /* RemoteController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1028, 6375}}";
+			sepNavSelRange = "{709, 0}";
+			sepNavVisRange = "{437, 697}";
+			sepNavWindowFrame = "{{15, 149}, {762, 624}}";
+		};
+	};
+	C6D68B9A0F213660000CB3C6 /* SPController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {976, 1190}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 585}";
+		};
+	};
+	FA441F2A1186F87D00F774F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6D68B560F212558000CB3C6 /* RemoteController.m */;
+		name = "RemoteController.m: 30";
+		rLen = 0;
+		rLoc = 709;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 437;
+	};
+	FA4A0EAD1186EBC6005D8993 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6D68B9A0F213660000CB3C6 /* SPController.h */;
+		name = "SPController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 585;
+		vrLoc = 0;
+	};
+	FA4A0EAE1186EBC6005D8993 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E515706102AE5FA00E5D978 /* SPApplication.h */;
+		name = "SPApplication.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 338;
+		vrLoc = 0;
+	};
+	FA4A0EAF1186EBC6005D8993 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAFDC31C10F7A92500BB0E38 /* HIDRemote.m */;
+		name = "HIDRemote.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1272;
+		vrLoc = 1462;
+	};
+	FA4A0EE91186EC96005D8993 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6D68B550F212558000CB3C6 /* RemoteController.h */;
+		name = "RemoteController.h: 12";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 422;
+		vrLoc = 0;
+	};
+	FA4A0F921186F789005D8993 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = /Users/alexprice/Developer/SpotifyRemote/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	FA4A0F951186F799005D8993 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6D68B560F212558000CB3C6 /* RemoteController.m */;
+		name = "RemoteController.m: 30";
+		rLen = 0;
+		rLoc = 709;
+		rType = 0;
+		vrLen = 634;
+		vrLoc = 486;
+	};
+	FAFDC31910F7A8E600BB0E38 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FAFDC31A10F7A8E600BB0E38 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FAFDC31C10F7A92500BB0E38 /* HIDRemote.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {976, 31518}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1462, 1272}";
+		};
+	};
+}
