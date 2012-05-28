@@ -162,7 +162,9 @@
 				break;
 				
 			case kHIDRemoteButtonCodeMenuHold:
-				
+				script = [[NSAppleScript alloc] initWithSource:@"tell application \"Spotify\" to quit"];
+				[script performSelectorOnMainThread:@selector(executeAndReturnError:) withObject:nil waitUntilDone:YES];
+				[script release];
 				break;
 				
 			case kHIDRemoteButtonCodePlay:
