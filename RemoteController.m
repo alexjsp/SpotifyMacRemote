@@ -115,21 +115,54 @@
 	if(!isPressed){
 		switch (buttonCode)
 		{
-			case kHIDRemoteButtonCodeUp:
-				[RemoteController volumeUp];
-				break;
-				
-			case kHIDRemoteButtonCodeUpHold:
-				[RemoteController volumeUp];
-				break;
-				
-			case kHIDRemoteButtonCodeDown:
-				[RemoteController volumeDown];
-				break;
-				
-			case kHIDRemoteButtonCodeDownHold:
-				[RemoteController volumeDown];
-				break;
+            case kHIDRemoteButtonCodeUp:
+                [RemoteController volumeUp];
+                script = [[NSAppleScript alloc] initWithSource:
+                          @"tell application \"Spotify\"\n\
+                          if sound volume > 95 then\n\
+                          set the sound volume to 100\n\
+                          else\n\
+                          set the sound volume to sound volume + 5\n\
+                          end if\n\
+                          end tell\n\
+                          "];
+                [script performSelectorOnMainThread:@selector(executeAndReturnError:) withObject:nil waitUntilDone:YES];
+                [script release];
+                break;
+                
+            case kHIDRemoteButtonCodeUpHold:
+                script = [[NSAppleScript alloc] initWithSource:
+                          @"tell application \"Spotify\"\n\
+                          set the sound volume to 80\n\
+                          end tell\n\
+                          "];
+                [script performSelectorOnMainThread:@selector(executeAndReturnError:) withObject:nil waitUntilDone:YES];
+                [script release];
+                break;
+                
+            case kHIDRemoteButtonCodeDown:
+                script = [[NSAppleScript alloc] initWithSource:
+                          @"tell application \"Spotify\"\n\
+                          if sound volume < 5 then\n\
+                          set the sound volume to 0\n\
+                          else\n\
+                          set the sound volume to sound volume - 5\n\
+                          end if\n\
+                          end tell\n\
+                          "];
+                [script performSelectorOnMainThread:@selector(executeAndReturnError:) withObject:nil waitUntilDone:YES];
+                [script release];
+                break;
+                
+            case kHIDRemoteButtonCodeDownHold:
+                script = [[NSAppleScript alloc] initWithSource:
+                          @"tell application \"Spotify\"\n\
+                          set the sound volume to 20\n\
+                          end tell\n\
+                          "];
+                [script performSelectorOnMainThread:@selector(executeAndReturnError:) withObject:nil waitUntilDone:YES];
+                [script release];
+                break;
 				
 			case kHIDRemoteButtonCodeLeft:
 				script = [[NSAppleScript alloc] initWithSource:@"tell application \"Spotify\" to previous track"];
